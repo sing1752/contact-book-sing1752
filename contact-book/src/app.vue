@@ -11,6 +11,6 @@
   </script>
   
   <style>
-  /* Additional global styles can be added here */
+
   </style>
   

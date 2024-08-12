@@ -9,7 +9,7 @@ const routes = [
   { path: '/contact/:id', name: 'ContactDetails', component: ContactDetailsView },
   { path: '/add', name: 'AddContact', component: AddContactView },
   { path: '/edit/:id', name: 'EditContact', component: EditContactView },
-  { path: '/:pathMatch(.*)*', redirect: '/' },  // Catch-all route to redirect to home
+  { path: '/:pathMatch(.*)*', redirect: '/' },  
 ];
 
 const router = createRouter({
